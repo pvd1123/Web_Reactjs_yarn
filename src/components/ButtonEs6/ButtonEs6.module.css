@@ -1,0 +1,15 @@
+.buttonRed{
+    padding: 12px 10px;
+    text-align: center;
+    background-color: rgb(232, 13, 13);
+    color: white;
+    border-radius: 4px;
+}
+
+.buttonBlack{
+    padding: 12px 10px;
+    text-align: center;
+    background-color: rgb(7, 6, 6);
+    color: white;
+    border-radius: 4px;
+}
