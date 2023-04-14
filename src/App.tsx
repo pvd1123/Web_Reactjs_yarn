@@ -5,6 +5,7 @@ import { buffer } from 'stream/consumers';
 import { FaAmazon } from "react-icons/fa";
 import ButtonEs6 from './components/ButtonEs6';
 import LikeButton from './components/ButtonEs6';
+import LoginPage from './pages/LoginPage';
 
 //Button theo định nghĩa Component
 // function Button(props: {label: string}){
@@ -59,7 +60,8 @@ function App() {
       <div>{Link()}</div>
       {/* <ButtonEs6 icon={<FaAmazon/>} label='Add to Cart' colorCustom='buttonRed' />
       <ButtonEs6 icon={undefined} label='Delete'colorCustom='buttonBlack'/> */}
-      <LikeButton />
+      {/* <LikeButton /> */}
+      <LoginPage />
     </div>
   );
 }
