@@ -7,10 +7,11 @@ import Colletion  from './pages/Collection';
 import Limitted from './pages/Limitted';
 import Popular from './pages/Popular';
 import Navbar from './components/Navbar'
+import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
 function App() {
   return (
-    <>
+    <ShoppingCartProvider>
       <Navbar />
       <Container className="mb-4">
         <Routes>
@@ -20,7 +21,7 @@ function App() {
           <Route path='/popular' element={<Popular />}></Route>
         </Routes>
       </Container>
-    </>
+    </ShoppingCartProvider>
   );
 }
 
