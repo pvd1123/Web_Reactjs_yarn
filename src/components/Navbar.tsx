@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
 import Button from 'react-bootstrap/Button';
+import {FaShoppingCart} from "react-icons/fa"
 
 function Navbar(){
     return(
@@ -24,6 +25,12 @@ function Navbar(){
                 <Button variant="outline-primary">
                     Sign In
                 </Button>{' '}
+
+                {/* <Button variant="outlined" startIcon={<FaShoppingCart />}>
+                    
+                </Button> */}
+                
+
             </Container>
         </NavbarBs>
     )
