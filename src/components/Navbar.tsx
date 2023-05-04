@@ -5,25 +5,25 @@ import Button from 'react-bootstrap/Button';
 
 function Navbar(){
     return(
-        <NavbarBs className="bg-white mb-3 shadow-sm">
+        <NavbarBs sticky="top" className="bg-white mb-3 shadow-sm">
             <Container className="me-auto">
                 <Nav>
                     <Nav.Link to ="/" as ={NavLink}>
                         Home
                     </Nav.Link>
-                    <Nav.Link to ="/" as ={NavLink}>
+                    <Nav.Link to ="/collection" as ={NavLink}>
                         Collection
                     </Nav.Link>
-                    <Nav.Link to ="/" as ={NavLink}>
+                    <Nav.Link to ="/limitted" as ={NavLink}>
                         Limitted
                     </Nav.Link>
-                    <Nav.Link to ="/" as ={NavLink}>
+                    <Nav.Link to ="/popular" as ={NavLink}>
                         Popular
                     </Nav.Link>
                 </Nav>
-                <Button>
-
-                </Button>
+                <Button variant="outline-primary">
+                    Sign In
+                </Button>{' '}
             </Container>
         </NavbarBs>
     )
