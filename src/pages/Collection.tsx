@@ -6,4 +6,4 @@ function Colletion(){
     )
 }
 
-export default Colletion;
+export default Colletion

@@ -6,4 +6,4 @@ function Limitted(){
     )
 }
 
-export default Limitted;
+export default Limitted
