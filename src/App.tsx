@@ -1,21 +1,23 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { buffer } from 'stream/consumers';
-// import Navbar from '../src/components/navbar'
-import { Routes, Route } from 'react-router-dom';
-// import {Container} from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
+import {Routes, Route} from "react-router-dom"
+import HomePage from './pages/Home';
+import Colletion from './pages/Collection';
+import Limitted from './pages/Limitted';
+import Popular from './pages/Popular';
 
-
-function App(){
-  return(
-  <div className='App'>
-    
-  </div>
-  )
+function App() {
+  return (
+    <Container>
+      <Routes>
+        <Route path='/' element={<HomePage />}></Route>
+        <Route path='/' element={<Colletion />}></Route>
+        <Route path='/' element={<Limitted />}></Route>
+        <Route path='/' element={<Popular />}></Route>
+      </Routes>
+    </Container>
+  );
 }
-
-
-
 
 export default App;
