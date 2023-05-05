@@ -22,9 +22,12 @@ function Navbar(){
                         Popular
                     </Nav.Link>
                 </Nav>
-                <Button variant="outline-primary">
-                    Sign In
-                </Button>{' '}
+                <Nav.Link to="/signin" as ={NavLink}>
+                    <Button variant="outline-primary">
+                        Sign In
+                    </Button>{' '}
+                </Nav.Link>
+                
 
                 {/* <Button variant="outlined" startIcon={<FaShoppingCart />}>
                     

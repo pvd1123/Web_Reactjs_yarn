@@ -8,6 +8,7 @@ import Limitted from './pages/Limitted';
 import Popular from './pages/Popular';
 import Navbar from './components/Navbar'
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
+import SignIn from './contact/SignIn';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/collection' element={<Colletion />}></Route>
           <Route path='/limitted' element={<Limitted />}></Route>
           <Route path='/popular' element={<Popular />}></Route>
+          <Route path='/signin' element={<SignIn />}></Route>
         </Routes>
       </Container>
     </ShoppingCartProvider>
