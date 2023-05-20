@@ -3,3 +3,4 @@
 3. yarn / npm i
 4. yarn add (LIB) / npm i (LIB)
 5. npx express-generator
+6. npm i cors yup mongdb mongoose
