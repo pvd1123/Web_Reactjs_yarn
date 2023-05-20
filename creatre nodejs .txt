@@ -1,0 +1,5 @@
+1. npm init
+2. npm i -g yarn
+3. yarn / npm i
+4. yarn add (LIB) / npm i (LIB)
+5. npx express-generator
